@@ -1,26 +1,51 @@
 Soal Nomor 1, Hukum II Newton
 
+ALGORITMA
+1. Simpan massa dengan nilai 600 kg
+2. Simpan percepatan dengan nilai 2 m/s^2
+3. Simpan gaya tanpa nilai tertentu
+4. Hitung perkalian massa dan percepatan
+5. Simpan hasil perkalian ke variabel gaya
+6. Tampilkan gaya 
+
+Pseudocode
 STORE "mass" with 600
 STORE "acceleration" with 2
 STORE "force" without any value
 
 CALCULATE "mass" times "acceleration"
-SET "focre" value with calculation result
+SET "focre" value with previous calculation result
 
-DISPLAY "force + Newton" 
+DISPLAY "force" 
+
 
 Soal Nomor 2, Tahun Kabisat
 
+ALGORITMA
+1. Simpan tahun dengan nilai tertentu
+2. Apabila tahun habis dibagi 4 dan tahun tidak habis dibagi 100,
+tampilkan tahun kabisat
+3. Apabila tahun habis dbagi 4 dan tahun habis dibagi 100 dan tahun habis dibagi 100,
+tampilkan tahun kabisat
+4. Jika tidak, tampilkan bukan tahun kabisat
+
 Pseudocode
 STORE "year" with any value
-IF ("year" MOD 4 = 0 AND "year" MOD 100 !=0) OR ("year" MOD 4 = 0 AND "year" MOD 100 = 0 AND "year" MOD 400 = 0)
+IF ("year" MOD 4 EQUALS TO 0 AND "year" MOD 100 NOT EQUAL TO 0) OR ("year" MOD 4 EQUALS TO 0 AND "year" MOD 100 EQUALS TO 0 AND "year" MOD 400 EQUALS TO 0)
     DISPLAY "Tahun Kabisat"
 ELSE 
     DISPLAY "Bukan Tahun Kabisat"
+ENDIF 
 
-ALGORITMA
+
 
 Soal Nomor 3, Laundry Day
+
+ALGORITMA
+1. Simpan jumlah baju dengan nilai 0
+2. Dengan melakukan operasi pengulangan, selama jumlah baju kurang dari 20, lakukan prosedur pengulangan
+3. Di dalam operasi pengulangan, jumlah baju bertambah 1 setiap kali melakukan pengulangan
+4. ketika jumlah baju sudah mencapai 20, pengulangan akan berhenti dan tampilkan semua baju telah masuk
 
 Pseudocode
 Store "jumlah-baju" with 0
@@ -30,21 +55,33 @@ WHILE "jumlah-baju" < 20
 
 DISPLAY "Semua Baju telah Masuk"
 
-ALGORITMA
 
 Soal Nomor 4, Periksa Kuku
 
+ALGORITMA
+1. Simpan murid dengan nilai 1
+2. Simpan kuku tanpa nilai tertentu
+3. Dengan melakukan operasi pengulangan, selama jumlah murid kurang dari 40, lakukan operasi pengulangan
+4. Di dalam operasi pengulangan, tampilkan murid
+5. Di dalam operasi pengulangan, masukkan data untuk variabel kuku
+6. Di dalam operasi pengulangan, apabila kuku siswa panjang, maka siswa akan dihukum
+7. Di dalam operasi pengulangan, apabila kuku siswa tidak panjang, maka siswa akan dipuji
+8. Di dalam operasi pengulangan, murid bertambah 1 setiap kali melakukan pengulangan
+9. Pengulangan akan berhenti apabila murid telah mencapai 40
+
 Pseudocode
 STORE "murid" with 1
-STORE "kuku" with any value
+STORE "kuku" without any value
 
 WHILE "murid" < 40
     DISPLAY "murid"
     READ "kuku"
-    IF "Kuku" == "panjang"
+    IF "Kuku" EQUALS TO "panjang"
         DISPLAY "dihukum"
     ELSE
         DISPLAY "dipuji"
+    ENDIF
+
     ADD "murid" by 1
 
-ALGORITMA
+

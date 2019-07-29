@@ -81,7 +81,6 @@ WHILE "murid" < 40
     ELSE
         DISPLAY "dipuji"
     END IF
-
-ADD "murid" by 1
+    ADD "murid" by 1
 
 

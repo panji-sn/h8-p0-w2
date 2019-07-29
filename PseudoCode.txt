@@ -1,0 +1,50 @@
+Soal Nomor 1, Hukum II Newton
+
+STORE "mass" with 600
+STORE "acceleration" with 2
+STORE "force" without any value
+
+CALCULATE "mass" times "acceleration"
+SET "focre" value with calculation result
+
+DISPLAY "force + Newton" 
+
+Soal Nomor 2, Tahun Kabisat
+
+Pseudocode
+STORE "year" with any value
+IF ("year" MOD 4 = 0 AND "year" MOD 100 !=0) OR ("year" MOD 4 = 0 AND "year" MOD 100 = 0 AND "year" MOD 400 = 0)
+    DISPLAY "Tahun Kabisat"
+ELSE 
+    DISPLAY "Bukan Tahun Kabisat"
+
+ALGORITMA
+
+Soal Nomor 3, Laundry Day
+
+Pseudocode
+Store "jumlah-baju" with 0
+
+WHILE "jumlah-baju" < 20
+    ADD "jumlah-baju" by 1
+
+DISPLAY "Semua Baju telah Masuk"
+
+ALGORITMA
+
+Soal Nomor 4, Periksa Kuku
+
+Pseudocode
+STORE "murid" with 1
+STORE "kuku" with any value
+
+WHILE "murid" < 40
+    DISPLAY "murid"
+    READ "kuku"
+    IF "Kuku" == "panjang"
+        DISPLAY "dihukum"
+    ELSE
+        DISPLAY "dipuji"
+    ADD "murid" by 1
+
+ALGORITMA

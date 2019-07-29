@@ -76,8 +76,8 @@ STORE "kuku" with any value
 WHILE "murid" < 40
     DISPLAY "murid"
     READ "kuku"
-    IF "Kuku" EQUALS TO "panjang"
-        DISPLAY "dihukum" THEN
+    IF "Kuku" EQUALS TO "panjang" THEN
+        DISPLAY "dihukum" 
     ELSE
         DISPLAY "dipuji"
     END IF

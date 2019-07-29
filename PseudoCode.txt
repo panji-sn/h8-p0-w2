@@ -3,7 +3,7 @@ Soal Nomor 1, Hukum II Newton
 ALGORITMA
 1. Simpan massa dengan nilai 600 kg
 2. Simpan percepatan dengan nilai 2 m/s^2
-3. Simpan gaya tanpa nilai tertentu
+3. Simpan gaya dengan nilai tertentu
 4. Hitung perkalian massa dan percepatan
 5. Simpan hasil perkalian ke variabel gaya
 6. Tampilkan gaya 
@@ -11,7 +11,7 @@ ALGORITMA
 Pseudocode
 STORE "mass" with 600
 STORE "acceleration" with 2
-STORE "force" without any value
+STORE "force" with any value
 
 CALCULATE "mass" times "acceleration"
 SET "focre" value with previous calculation result
@@ -31,11 +31,11 @@ tampilkan tahun kabisat
 
 Pseudocode
 STORE "year" with any value
-IF ("year" MOD 4 EQUALS TO 0 AND "year" MOD 100 NOT EQUAL TO 0) OR ("year" MOD 4 EQUALS TO 0 AND "year" MOD 100 EQUALS TO 0 AND "year" MOD 400 EQUALS TO 0)
+IF ("year" MOD 4 EQUALS TO 0 AND "year" MOD 100 NOT EQUAL TO 0) OR ("year" MOD 4 EQUALS TO 0 AND "year" MOD 100 EQUALS TO 0 AND "year" MOD 400 EQUALS TO 0) THEN
     DISPLAY "Tahun Kabisat"
 ELSE 
     DISPLAY "Bukan Tahun Kabisat"
-ENDIF 
+END IF 
 
 
 
@@ -60,7 +60,7 @@ Soal Nomor 4, Periksa Kuku
 
 ALGORITMA
 1. Simpan murid dengan nilai 1
-2. Simpan kuku tanpa nilai tertentu
+2. Simpan kuku dengan nilai tertentu
 3. Dengan melakukan operasi pengulangan, selama jumlah murid kurang dari 40, lakukan operasi pengulangan
 4. Di dalam operasi pengulangan, tampilkan murid
 5. Di dalam operasi pengulangan, masukkan data untuk variabel kuku
@@ -71,17 +71,17 @@ ALGORITMA
 
 Pseudocode
 STORE "murid" with 1
-STORE "kuku" without any value
+STORE "kuku" with any value
 
 WHILE "murid" < 40
     DISPLAY "murid"
     READ "kuku"
     IF "Kuku" EQUALS TO "panjang"
-        DISPLAY "dihukum"
+        DISPLAY "dihukum" THEN
     ELSE
         DISPLAY "dipuji"
-    ENDIF
+    END IF
 
-    ADD "murid" by 1
+ADD "murid" by 1
 
 
